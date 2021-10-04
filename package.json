@@ -1,5 +1,6 @@
 {
   "name": "rctr-9-8-20-weathericons-starter",
+  "homepage:": "https://saetan.github.io/demo_homework/",
   "version": "1.0.0",
   "description": "",
   "keywords": [],
@@ -16,7 +17,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "browserslist": [
     ">0.2%",
